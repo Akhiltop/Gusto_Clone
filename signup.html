@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        /* *{
+            border: 1px solid red;
+        } */
+        #sign {
+            width: 500px;
+            margin: auto;
+            text-align: center;
+
+
+        }
+
+        #sign1 {
+            padding: 0% 7%;
+        }
+
+        #sign2 {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            flex-direction: column;
+            padding: 7% 7%;
+            gap: 7px;
+        }
+
+        #sign2>h3:nth-child(1) {
+            margin: 0% 7%;
+        }
+
+        #sign2>button>div {
+            padding: 0% 30%;
+            display: grid;
+            grid-template-columns: 1fr 8fr;
+            align-items: center;
+            text-align: left;
+
+
+        }
+
+        #sign2>button {
+            border-radius: 7px;
+            border-color: white;
+
+        }
+
+        #sign2>input,
+        #sign2>div>input {
+            padding: 2%;
+            border-radius: 7px;
+            border-color: gainsboro;
+        }
+
+        #sign2>div {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        ul,
+        li {
+            text-align: left;
+        }
+
+        #sign2>button~button {
+            padding: 15px;
+            font-weight: bold;
+            color: white;
+            background-color: orangered;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sign">
+        <div id="sign1">
+            <h1>Get started with Gusto</h1>
+            <h3>We offer one intuitive place to manage payroll,
+                benefits, and HR for your business.</h3>
+        </div>
+        <div id="sign2">
+
+            <h3>Nice! We could be a great fit for your business.</h3>
+            <button>
+                <div><img
+                        src="https://prod.gusto-assets.com/assets/packs/media/icons/partner-logo-google-cd0f2b38.svg" />
+                    <h4>Sign up with Google</h4>
+                </div>
+            </button>
+            <hr>
+            <input placeholder="Full Name" />
+            <input placeholder="Work email address" />
+            <input placeholder="Company name" />
+            <div><input placeholder="No.of employees" />
+                <input placeholder="Company phone" />
+            </div>
+            <input type="password" placeholder="Set password" />
+            <ul style="list-style-type:circle">Password strength:
+                <li>Use 8 or more characters.</li>
+                <li>Use a minimum of one letter.</li>
+                <li>Use a minimum of one number.</li>
+
+            </ul>
+            <input type="password" placeholder="Confirm password" />
+            <button>Get started</button>
+            <h4>Already use Gusto? Sign in here.</h4>
+            <h4>By creating an account, you agree to the terms & conditions, the payroll terms, and our privacy policy.
+            </h4>
+        </div>
+        <h5>No credit card required . Secure site</h5>
+        <h3>Does your company use Gusto today? Sign in here.</h3>
+    </div>
+</body>
+
+</html>
