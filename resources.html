@@ -5,6 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        /* * {
+            border: 1px solid rgb(252, 246, 246);
+        } */
+
+        #navbar {
+            padding: 0px 7%;
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 10%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            position: sticky;
+            top: 0px;
+            left: 0px;
+            background-color: white;
+            z-index: 1000;
+
+
+        }
+
+        #nav1,
+        #nav2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #sign {
+
+            background-color: gainsboro;
+            padding: 10px 20px;
+            border-radius: 5px;
+
+        }
+
+        #create {
+
+            background-color: rgb(236, 138, 47);
+            padding: 12px 20px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: black
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="nav1">
+            <a href="index_page.html"><img
+                    src="https://prod.gusto-assets.com/assets/svg/header/gusto-logo-bfed4fde4bd2b5dd364ab0e58f77fc90aeefa2f1ecdb7fff524279642e23f9c2.svg" /></a>
+            <p><a href="why_gusto.html">Why Gusto</a></p>
+            <p><a href="payroll.html">Payroll and more</a></p>
+
+
+
+
+            <p><a href="pricing.html">Pricing</a></p>
+            <p><a href="accountants.html">For Accountants</a></p>
+            <p><a href="resources.html">Resources</a></p>
+            <p><a href="buitforu.html">Built for you</a></p>
+
+        </div>
+        <div id="nav2">
+            <p>Search</p>
+            <p id="sign"><a style="border: 0;" href="login.html">Sign in</a></p>
+            <p id="create"><a style="color: white;border: 0;" href="signup.html">Create Account</a></p>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
         #resource h1 {
@@ -296,6 +385,198 @@
             <h4>Prices start at just $46/month</h4>
             <h1>Get your team working with Gusto.</h1>
             <button>Create account</button>
+        </div>
+    </div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <style>
+        #foot1 {
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        #foot2 {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+
+        }
+
+        #foot {
+            padding: 0% 7%;
+        }
+
+        #foot22 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        #foot3,
+        #foot32,
+        #foot33 {
+            display: flex;
+            gap: 10px;
+        }
+
+        #foot33>img {
+            width: 15px;
+        }
+
+        #foot a {
+            text-decoration: none;
+            color: black
+        }
+    </style>
+</head>
+
+<body>
+    <div id="foot">
+        <div id="foot1">
+            <div>
+                <h4>Pricing</h4>
+                <p><a href="pricing.html">Starting at just $46 per month</a></p>
+                <br>
+                <h4>Built for you</h4>
+                <p><a href="buitforu.html">Starting a business</a></p>
+                <p><a href="buitforu.html">Switching to Gusto</a></p>
+                <p><a href="buitforu.html">Working remotely</a></p>
+                <p><a href="why_gusto.html">Why Gusto</a></p>
+                <br>
+                <h4>For Accountants</h4>
+                <p><a href="accountants.html">Become a partner</a></p>
+                <p><a href="accountants.html">People Advisory</a></p>
+                <p><a href="accountants.html">Trainings</a></p>
+                <p>Gusto Pro</p>
+                <p>Gusto partner blog</p>
+                <p>Gusto Next 2022</p>
+                <br>
+                <h4>For Developers</h4>
+                <p>Gusto Embedded Payroll</p>
+                <p>Build apps with Gusto</p>
+                <p>Developer tools</p>
+
+
+            </div>
+            <div>
+
+                <h4>Get started</h4>
+                <p>Interactive Demo</p>
+                <p>Contact Sales — (800) 936-0383</p>
+                <br>
+                <h4>Services</h4>
+                <p>People platform</p>
+                <p>Full-service payroll</p>
+                <p>Employee Benefits</p>
+                <p>Health Benefits</p>
+                <p>Financial Benefits</p>
+                <p>Time and attendance</p>
+                <p>Hiring and onboarding</p>
+                <p>Talent management</p>
+                <p>Insights and reporting</p>
+                <p>Workers' compensation</p>
+                <p>Gusto Wallet</p>
+
+
+            </div>
+            <div>
+                <h4>Company</h4>
+                <p>About</p>
+                <p>Careers — We're hiring!</p>
+                <p>Press</p>
+                <p>News</p>
+                <p>Investors</p>
+                <p>Contact</p>
+                <p>Affiliate program</p>
+                <br>
+                <h4>Licenses</h4>
+                <p>Gusto Capital, LLC NMLS ID: 1845463</p>
+                <p>ZenPayroll, Inc. NMLS ID: 1737896</p>
+                <br>
+                <h4>Support</h4>
+                <p>Help Center</p>
+                <p>Talk to support — Sign in</p>
+
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <p><a href="resources.html">Customer stories</a></p>
+                <p><a href="resources.html">Customer reviews</a></p>
+                <p><a href="resources.html">Compare</a></p>
+                <p>Partner Directory</p>
+                <p>Business Guides</p>
+                <p>FAQs</p>
+                <p>Security</p>
+                <p>Integrations</p>
+                <br>
+                <h4>Tools</h4>
+                <p>Small Business Financial Relief</p>
+                <p>Employer tax calculator</p>
+                <p>Burn rate calculator</p>
+                <p>New hire checklist</p>
+
+            </div>
+        </div>
+        <h4>Talk Shop: Business resources
+            <hr>
+        </h4>
+
+        <div id="foot2">
+            <div id="" foot21">
+                <h4>Talk Shop blog</h4>
+                <p>Advice and information for growing businesses and their teams</p>
+
+            </div>
+            <div id="foot22">
+                <p>Running payroll</p>
+                <p>Workers' comp</p>
+                <p>Hiring</p>
+                <p>Employee benefits</p>
+                <p>Starting a business</p>
+                <p>Growth</p>
+                <p>Health insurance</p>
+                <p>Business finances</p>
+                <p>Taxes</p>
+                <p>People management</p>
+
+
+            </div>
+
+        </div>
+        <div id="foot3">
+            <div id="foot31">
+                <p>Gusto © 2022</p>
+            </div>
+            <div id="foot32">
+                <p>Brokers</p>
+                <p>Privacy</p>
+                <p>Accessibility</p>
+                <p>Terms</p>
+                <p>Licenses</p>
+                <p>Site map</p>
+
+            </div>
+            <div id="foot33">
+
+
+                <img
+                    src="https://prod.gusto-assets.com/assets/shared/social_media/logo-facebook-0668fc17c61baf52ffa132ed00e968762769958359a302d3625793df8ebbe390.svg" />
+                <img src="https://prod.gusto-assets.com/assets/shared/social_media/logo-twitter-ebb5b12bbb77eadf6dbb30175a5dd51d8891fd6f6335df50326e2b7ec83af35b.svg"
+                    alt="">
+                <img src="https://prod.gusto-assets.com/assets/shared/social_media/logo-linkedin-04395981c92172b30b3dfb54652a6a652ddb2013084509169e1784c448056918.svg"
+                    alt="">
+                <img src="https://prod.gusto-assets.com/assets/shared/social_media/logo-instagram-3349956711fdb687f2ee515f67b9276720a074665bc2a6cd44207fbac26de95e.svg"
+                    alt="">
+
+            </div>
         </div>
     </div>
 </body>

@@ -96,99 +96,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #pricing h1 {
+        #account h1 {
             font-size: 50px;
         }
 
-        #pricing11 {
-            padding: 5% 30% 2%;
-            text-align: center;
-
-        }
-
-        #pricing1 {
-            background-color: gainsboro;
-
-        }
-
-        #pricing12 {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            padding: 0% 10%;
-            gap: 3%;
-            align-items: center;
-        }
-
-        #pricing12>div {
-            background-color: white;
-            padding: 5%;
-            border-radius: 10px;
-            margin-bottom: 10%;
-
-        }
-
-        #pricing12>div>h1:nth-child(5) {
+        #account11>h4:nth-child(1) {
             color: orangered;
         }
 
-        #pricing12>div>button {
-            padding: 4%0%;
+        #account1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding-left: 10%;
+            gap: 10%;
+            align-items: center;
+        }
+
+        #account12>img {
+            width: 100%;
+        }
+
+        #account11>button {
             width: 100%;
             color: white;
             font-weight: bold;
             background-color: orangered;
+            padding: 2%;
             border-color: white;
+        }
+
+        #mains_5 {
+            padding: 5% 25%;
+            text-align: center;
+        }
+
+        #mains_5>button {
+            background-color: rgb(250, 104, 14);
             border-radius: 5px;
+            padding: 15px;
+            font-weight: bold;
+            color: white;
+            border-color: white;
         }
     </style>
 </head>
 
 <body>
-    <div id="pricing">
-        <div id="pricing1">
-            <div id="pricing11">
-                <h1>Let’s find the right plan for your business.</h1>
-                <p>Join Gusto today and don’t pay a cent until you’re ready to run payroll.</p>
+    <div id="account">
+        <div id="account1">
+
+            <div id="account11">
+                <h4>Gusto for Accountants</h4>
+                <h1>Do more than payroll? So does Gusto.</h1>
+                <h4>With Gusto you and your clients get easy payroll and benefits, access to HR experts, compliance
+                    support, and so much more.
+                </h4>
+                <button>Become a partner</button>
+                <p style="text-align:center">Prefer to chat? Give us a call at (719) 422-6145</p>
+                <ul>
+                    <li>Free payroll subscription for your firm</li>
+                    <li>Up to 20% revenue share or discounts for your clients</li>
+                    <li>Earn CPE credits from our educational live webinars</li>
+                </ul>
             </div>
-            <div id="pricing12">
-                <div>
-                    <h1>Simple</h1>
-                    <h4>A streamlined set of automatic payroll features and benefits integrations.</h4>
-                    <br>
-                    <br>
-                    <h1>$40/mo</h1>
-                    <hr>
-                    <h4>plus $6/mo per person</h4>
-                    <hr>
-                    <button>Create account</button>
-                </div>
-                <div>
-                    <h1>Plus</h1>
-                    <h4>Comprehensive payroll, benefits, and HR tools for employers building a great place to work.</h4>
-                    <br>
-                    <br>
-                    <h1>$80/mo</h1>
-                    <hr>
-                    <h4>plus $12/mo per person</h4>
-                    <hr>
-                    <button>Create account</button>
-                </div>
-                <div>
-                    <h1>Premium</h1>
-                    <h4>Scalable payroll and benefits, expert HR, and dedicated support for the complex needs of growing
-                        teams.</h4>
-                    <h4></h4>
-                    <br>
-                    <h1>Exclusive</h1>
-                    <hr>
-                    <h4>Contact us for details</h4>
-                    <hr>
-                    <button style="background-color:cadetblue">Talk to us</button>
-                </div>
+            <div id="account12">
+                <img
+                    src="https://prod.gusto-assets.com/assets/accountants/hero-photo-indinero-7f32610e4643e85b7f40b5c5bff3b47ade7f283f2449795ad47ac7414be1fbe7.jpg.webp" />
+
             </div>
 
         </div>
+        <div id="mains_5">
+            <h1>We’re so sure you’ll love Gusto,
+                your firm’s subscription is free. </h1>
+            <h4>Streamline payroll and benefits, and start advising
+                your clients in valuable new ways.</h4>
+            <button>Become a partner</button>
+        </div>
     </div>
+
 </body>
 
 </html>
