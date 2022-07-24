@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #payroll1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+        #payroll11 {
+            padding: 10% 10%;
+        }
+
+        #payroll h1 {
+            font-size: 50px;
+        }
+
+        #payroll11>h4 {
+            color: orangered
+        }
+
+        #payroll11>button {
+            padding: 2% 5%;
+            background-color: orangered;
+            color: white;
+            border-color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        #payroll12>video {
+            width: 100%;
+        }
+
+        #payroll2 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 5% 15%;
+            background-color: gainsboro;
+            text-align: center;
+            gap: 2%;
+        }
+
+        #payroll31 {
+            padding: 5% 29%;
+            text-align: center;
+        }
+
+        #payroll31>h4:nth-child(1) {
+            color: orangered;
+        }
+
+        #payroll32 {
+            padding: 0% 20%;
+        }
+
+        #payroll32>video {
+            width: 100%;
+        }
+
+        #payroll33 {
+            padding: 0%20%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            color: cadetblue;
+            text-align: center;
+            padding-bottom: 3%;
+        }
+
+        #payroll4 {
+            background-color: gainsboro;
+            padding: 10%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            text-align: center;
+        }
+
+        #payroll4 h1 {
+            color: cadetblue;
+        }
+
+        #payroll5 {
+            text-align: center;
+            background-color: gainsboro;
+
+        }
+
+        .payroll6 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 5% 10%;
+            gap: 5%;
+            align-items: center;
+        }
+
+        .payroll61>video,
+        .payroll61>img {
+            width: 100%;
+
+        }
+
+        .payroll62>h4:nth-child(1) {
+            color: orangered;
+        }
+
+        .payroll622 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            line-height: 0;
+        }
+
+        #payroll7 {
+            padding: 3% 30%;
+            text-align: center;
+            background-color: gainsboro;
+        }
+
+        #payroll71 {
+            display: flex;
+            align-items: center;
+            gap: 2%;
+
+        }
+
+        #payroll71>img {
+            width: 10%;
+            border-radius: 100px;
+        }
+
+        #payroll8 {
+            background-color: wheat;
+            text-align: center;
+            padding: 5% 0%;
+        }
+
+        #payroll82 {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 0% 20%;
+            gap: 5%;
+
+        }
+
+        #payroll8>button {
+            margin: 3% 0%;
+            padding: 1% 2%;
+            border-radius: 5px;
+            border-color: white;
+            color: cadetblue;
+            font-weight: bold;
+        }
+
+        #main_3 {
+            background-color: rgb(243, 237, 226);
+            padding: 5% 25%;
+
+        }
+
+        #main_31 {
+            padding: 0% 12%;
+            text-align: center;
+        }
+
+        #main_31>h1 {
+            font-size: 50px;
+        }
+
+        #main_31>h4:nth-child(1) {
+            color: orangered;
+        }
+
+
+        #main_32 {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 6%;
+
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        #main_32>div>img {
+            width: 60%
+        }
+
+        #main_5 {
+            padding: 5% 35%;
+            text-align: center;
+        }
+
+        #main_5>button {
+            background-color: orangered;
+            border-radius: 5px;
+            padding: 15px;
+            font-weight: bold;
+            color: white;
+            border-color: white;
+        }
+
+        #main_5>h4:nth-child(1) {
+            color: orangered;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="payroll">
+        <div id="payroll1">
+            <div id="payroll11">
+                <h4>Full-service payroll</h4>
+                <h1>Payroll that is easy to use and seriously smart.</h1>
+                <button>Get started</button>
+            </div>
+            <div id="payroll12">
+
+                <video autoplay muted>
+                    <source src=https://prod.gusto-assets.com/wp-content/uploads/PayrollPage_WithoutDevice_%402x.mp4>
+                </video>
+
+            </div>
+        </div>
+        <div id="payroll2">
+            <div id="payroll21">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/illo-sm-money-envelope.png" />
+                <h3>Automatically files your payroll taxes.</h3>
+            </div>
+            <div id="payroll21">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/illo-sm-calendar.png" />
+                <h3>Backed by best-in-class customer service.</h3>
+            </div>
+            <div id="payroll21">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/illo-sm-stethoscope.png" />
+                <h3>Benefits and time tracking built right in.</h3>
+            </div>
+            <div id="payroll21">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/illo-sm-dollar-sign-sync.png" />
+                <h3>Unlimited payrolls. Clear pricing. No surprises.</h3>
+            </div>
+        </div>
+        <div id="payroll3">
+            <div id="payroll31">
+                <h4>How it works</h4>
+                <h1>Run your payroll in minutes.</h1>
+                <h4>Run payroll as many times as you need to each month — we don’t charge extra. Your team gets paid in
+                    just a few clicks. And you can even set it on AutoPilot™.</h4>
+            </div>
+            <div id="payroll32">
+                <video autoplay muted>
+                    <source src=https://prod.gusto-assets.com/wp-content/uploads/PayrollPage_WithoutDevice_%402x.mp4>
+                </video>
+                <hr>
+            </div>
+
+            <div id="payroll33">
+                <h4>Sync your teams hours automatically.</h4>
+                <h4>We summarize everything so you can review.</h4>
+                <h4>Submit! Your teams pay is on the way.</h4>
+            </div>
+        </div>
+        <div id="payroll4">
+            <div id="payroll41">
+                <h1>85%</h1>
+                <h4>of customers say Gusto is easier to use than their last payroll provider.</h4>
+            </div>
+            <div id="payroll42">
+                <h1>13 minutes</h1>
+                <h4>to run payroll on average, as reported by customers.</h4>
+            </div>
+            <div id="payroll43">
+                <h1>90%</h1>
+                <h4>of customers tell us switching to Gusto is easy.</h4>
+            </div>
+
+        </div>
+        <div id="payroll5">
+            <p>Based on a 2018 TechValidate survey of more than 600 Gusto customers</p>
+        </div>
+        <div class="payroll6">
+            <div class="payroll61">
+                <video autoplay muted>
+                    <source
+                        src="https://www.dropbox.com/s/p8f2fmsc4t9fd76/Sign-in%20Animation_no%20frame%20111919.mp4?dl=1">
+                </video>
+            </div>
+            <div class="payroll62">
+                <h4>Payroll taxes</h4>
+                <h1>Your payroll taxes, filed automatically.</h1>
+                <h4>We dont just calculate your taxes, we file them with the right government agencies every time you
+                    run payroll.
+                </h4>
+                <h4>Other providers charge for this — with us, its included.</h4>
+
+            </div>
+        </div>
+        <div class="payroll6">
+
+            <div class="payroll62">
+                <h4>Integrated platform</h4>
+                <h1>Everything you need, synced with payroll.</h1>
+
+                <h4>All our features work together seamlessly on one platform — health insurance, 401(k), workers comp,
+                    time tracking, PTO, Gusto Cashout™, and more.</h4>
+                <h4>We play nice with others too.</h4>
+                <div class="payroll622">
+
+                    <h4>&#10004;Xero</h4>
+                    <h4>&#10004;TSheets</h4>
+                    <h4>&#10004;Clover</h4>
+                    <h4>&#10004;QuickBooks</h4>
+                    <h4>&#10004;Trainual</h4>
+                    <h4>&#10004;and more</h4>
+
+
+
+                </div>
+            </div>
+            <div class="payroll61">
+                <video autoplay muted>
+                    <source
+                        src="https://www.dropbox.com/s/p8f2fmsc4t9fd76/Sign-in%20Animation_no%20frame%20111919.mp4?dl=1">
+                </video>
+            </div>
+
+        </div>
+        <div class="payroll6">
+            <div class="payroll61">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/payroll-compliance-signature%402x.png" />
+            </div>
+            <div class="payroll62">
+                <h4>Compliance</h4>
+                <h1>Compliance, accuracy,
+                    and peace of mind.</h1>
+                <h4>No forgotten forms or signatures.</h4>
+                <p>Employee I-9s and W-2s, and contractor 1099s are stored and organized online.</p>
+                <h4>State tax registration in all 50 states.</h4>
+                <p>We handle the registration process in all the states your employees live and work.</p>
+                <h4>Auto-calculations for fewer mistakes.</h4>
+                <p>We keep track of changing tax laws and do the calculations for you.</p>
+                <h4>Track lunches, breaks, and more.</h4>
+                <p>If you have hourly workers, our time tracking with geolocation can help you stay in compliance.</p>
+
+
+            </div>
+        </div>
+        <div id="payroll7">
+            <h1 style="font-size:30px">My favorite thing about Gusto is the compliance aspect. They make quarterly
+                taxes, onboarding, and everything else so simple and easy, which saves me a ton of time.</h1>
+            <div id="payroll71">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/luke-henke%402x.png" />
+                <h2>Luke Henke</h2>
+                <h4>Accounting Manager at Amplio Digital LLC</h4>
+            </div>
+        </div>
+        <div class="payroll6">
+
+            <div class="payroll62">
+                <h4>Workers compensation</h4>
+                <h1>Workers comp with no lump sums.</h1>
+                <h4>Protect your business and your employees. Set up and sign your workers comp policy all online, then
+                    pay as you go instead of all at once.</h4>
+
+                <h4>More about workers compensation</h4>
+
+
+            </div>
+            <div class="payroll61">
+                <img
+                    src="https://prod.gusto-assets.com/wp-content/uploads/HumphrySlocombe-SanFranciscoCA-0334%402x.jpg" />
+            </div>
+        </div>
+        <div class="payroll6">
+            <div class="payroll61">
+                <img
+                    src="https://prod.gusto-assets.com/wp-content/uploads/international-payment-contractors%402x.jpg" />
+            </div>
+            <div class="payroll62">
+
+                <h1>Pay contractors in more than 80 countries.</h1>
+                <h4>Growing businesses cant always limit themselves to one time zone. We handle contractor payments in
+                    more than 80 countries so you can tap into great talent all over the world.</h4>
+
+                <h4>See all countries</h4>
+
+
+            </div>
+
+        </div>
+        <div class="payroll6">
+
+            <div class="payroll62">
+                <h4>Customer support</h4>
+                <h1>Help from people who care about your team.</h1>
+                <h4>The one thing that makes smart technology better? Even smarter people who care about you, your
+                    business, and your team.
+                </h4>
+
+                <h4>Get in touch with us. Were here to help.</h4>
+
+
+            </div>
+            <div class="payroll61">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/payroll-customer-support%402x.jpg" />
+            </div>
+        </div>
+        <div id="payroll7">
+            <h1 style="font-size:30px">As soon as I saw how easy it was to set everything up I liked it, but the first
+                time I ever dealt with customer service is when I really knew we chose the right payroll company.</h1>
+            <div id="payroll71">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/Screen-Shot-2021-06-16-at-12.28.04-PM.png" />
+                <h2>Kyle Woodman</h2>
+                <h4>
+                    Co-founder of Matchless Builds</h4>
+            </div>
+        </div>
+        <div class="payroll6">
+
+            <div class="payroll62">
+                <h4>Financial benefits</h4>
+                <h1>Empower your employees and save time.</h1>
+                <h4>Self-setup made easy.</h4>
+                <p>Once hired, employees enter their own details in Gusto. They can view their Paystubs and W-2s anytime
+                    — even after they change jobs.</p>
+                <h4>Financial tools built in.</h4>
+                <p>With Gusto Wallet, savings are built into every paycheck. Employees can even access emergency cash
+                    between paydays.</p>
+                <h4>Paperless paydays.</h4>
+                <p>The Gusto debit card gives employees direct access to their money on payday so you don’t have to
+                    print checks.</p>
+                <h4>Learn more about Gusto Wallet</h4>
+
+
+            </div>
+            <div class="payroll61">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/gusto-wallet%402x.png" />
+            </div>
+        </div>
+        <div id="payroll8">
+            <div id="payroll81">
+                <img src="https://prod.gusto-assets.com/wp-content/uploads/illo-sm-microscope.png" alt="">
+                <h1>Want to get into the details?</h1>
+            </div>
+            <div id="payroll82">
+                <div>
+
+                    <h3>Automated taxes and filings</h3>
+                    <p>No math. No stress. We wll make sure everythings filed.</p>
+                    <h4>Dig in deeper</h4>
+
+
+                </div>
+                <div>
+                    <h3>All the forms you need</h3>
+                    <p>Go paperless. We e-sign, e-file, and e-fax the forms you need.</p>
+                    <h4>Which forms?</h4>
+
+                </div>
+                <div>
+                    <h3>Flexible payroll features</h3>
+                    <p>Unlimited payroll and next-day direct deposit. Multiple states and pay schedules.</p>
+                    <h4>See what you get</h4>
+
+                </div>
+                <div>
+                    <h3>Advanced payroll features</h3>
+                    <p>Tax credits. Reports. Integrations. Our service gets pretty advanced.</p>
+                    <h4>Count the ways</h4>
+
+                </div>
+                <div>
+                    <h3>Employee management</h3>
+                    <p>We have tools that make Gusto easy for your employees too.</p>
+                    <h4>Why employees love Gusto</h4>
+
+                </div>
+                <div>
+                    <h3>Online and on the go</h3>
+                    <p>Use Gusto anywhere. Its all synced and stored online.</p>
+                    <h4>Why is payroll better online?</h4>
+                </div>
+            </div>
+            <button>See all payroll features</button>
+        </div>
+        <div id="main_3">
+            <div id="main_31">
+                <h4>The people platform</h4>
+                <h1>Manage your growing
+                    team, all in one place.</h1>
+                <h4>Behind every successful business is a thriving team. Hire, pay, insure, and support your employees
+                    with
+                    Gusto's all-in-one people platform.</h4>
+                <h4>Learn more</h4>
+            </div>
+            <div id="main_32">
+                <div>
+                    <img src="https://prod.gusto-assets.com/assets/components/people_platform/svg/HROS_Payroll-80bbe6366bd32b637b306c324ceac63d666649e5c3fb5f7fa96c6c1581fdc7c1.svg"
+                        alt="">
+                    <h4>Full-service
+                        payroll</h4>
+                </div>
+                <div><img
+                        src="https://prod.gusto-assets.com/assets/components/people_platform/svg/HROS_Benefits-516b42413e9fbb129e21e9ac272e82d4f5994aaccc015ab85b81faa52722a5be.svg"
+                        alt="">
+                    <h4>Employee
+                        benefits</h4>
+                </div>
+                <div><img
+                        src="https://prod.gusto-assets.com/assets/components/people_platform/svg/HROS_Time%20and%20Attendance-e863d55e2ea828436aade1cc5ab2a79d9e1f0c5868b7eb56716cb01a51d7213c.svg"
+                        alt="">
+                    <h4>Time and attendance</h4>
+                </div>
+                <div><img
+                        src="https://prod.gusto-assets.com/assets/components/people_platform/svg/HROS_HiringAndOnboarding-c5d38fff8b6148d52fce57aac81cd88a4115c3e725adbfc502b64776520b95b8.svg"
+                        alt="">
+                    <h4>Hiring and onboarding</h4>
+                </div>
+                <div><img
+                        src="https://prod.gusto-assets.com/assets/components/people_platform/svg/HROS_Talent%20Management-917165f1ffb3dfc6bb5a66d9182143738f01aefa6b0505c2bca6536b575fba55.svg"
+                        alt="">
+                    <h4>Talent management</h4>
+                </div>
+                <div><img
+                        src="https://prod.gusto-assets.com/assets/components/people_platform/svg/HROS_InsightsAndReporting-aefd17463c1c53c20e07a1acfc2f1d9701697f897869859747bff1b3c31580ab.svg"
+                        alt="">
+                    <h4>Insights and reporting</h4>
+                </div>
+            </div>
+
+        </div>
+        <div id="main_5">
+            <h4>Prices start at just $46/month</h4>
+            <h1>Get your team working with Gusto.</h1>
+            <button>Create account</button>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
